@@ -31,23 +31,28 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="../../templates/index.html">WEBAPPLAYERS</a>
+                    <!--<a class="navbar-brand" href="../../templates/index.html">WEBAPPLAYERS</a>-->
                 </div>
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a class="page-scroll" href="#page-top">Home</a></li>
-                        <li><a class="page-scroll" href="#features">Features</a></li>
-                        <li><a class="page-scroll" href="#team">Team</a></li>
-                        <li><a class="page-scroll" href="#testimonials">Testimonials</a></li>
-                        <li><a class="page-scroll" href="#pricing">Pricing</a></li>
-                        <li><a class="page-scroll" href="#contact">Contact</a></li>
+                        <li><a class="page-scroll" href="#page-top">Главная</a></li>
+                        <!--<li><a class="page-scroll" href="#text1">История</a></li>-->
+                        <!--<li><a class="page-scroll" href="#opportunity">Возможности</a></li>-->
+                        <li><a class="page-scroll" href="#schedule">Программа</a></li>
+                        <li><a class="page-scroll" href="#speakers">Спикеры</a></li>
+                        <li><a class="page-scroll" href="#place">Место</a></li>
+                        <!--<li><a class="page-scroll" href="#getting">Получаете</a></li>-->
+                        <li><a class="page-scroll" href="#organizators">Организаторы</a></li>
+                        <li><a class="page-scroll" href="#pricing">Цены</a></li>
+                        <li><a class="page-scroll" href="#registration">Регистрация</a></li>
+                        <li><a class="page-scroll" href="#contact">Контакты</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
 </div>
 
-<section id="testimonials" class="navy-section testimonials" style="margin-top: 0; background-image: url({% static 'img/myimg/antalia.jpg' %});
+<section id="page-top" class="navy-section testimonials" style="margin-top: 0; background-image: url({% static 'img/myimg/antalia.jpg' %});
         padding-top: 130px; padding-bottom: 300px;">
     <div class="container">
         <div class="row">
@@ -59,16 +64,16 @@
                 <div class="testimonials-text">
                     <i style="font-size: 35px;">"Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like)."</i>
                 </div>
-                <small>
+                <!--<small>
                     <strong>12.02.2014 - Andy Smith</strong>
-                </small>
+                </small>-->
             </div>
         </div>
     </div>
 
 </section>
 
-<div style="background-color: #1ab394; width: 100%">
+<div id='text1' style="background-color: #1ab394; width: 100%">
     <section  class="container features" style="padding-top: 50px; padding-bottom: 200px;">
         <div class="row">
             <div class="col-lg-12 text-center">
@@ -89,10 +94,9 @@
             </div>
         </div>
     </section>
-
 </div>
 
-<section class="features" style="padding-top: 50px; padding-bottom: 100px;">
+<section id="opportunity" class="features" style="padding-top: 50px; padding-bottom: 100px;">
     <div class="container" style="color: #1ab394;">
         <div class="row">
             <div class="col-lg-12 text-center">
@@ -132,9 +136,8 @@
     </div>
 </section>
 
-<section id="testimonials" class="navy-section testimonials" style="margin-top: 0; background-image: url({% static 'img/myimg/antalia.jpg' %});
+<section id="schedule" class="navy-section testimonials" style="margin-top: 0; background-image: url({% static 'img/myimg/antalia.jpg' %});
         padding-top: 100px; padding-bottom: 200px;">
-
     <div class="container">
         <div class="row" style="background-color: rgba(255,255,255,0.3); border-radius: 30px; padding: 20px 0 50px 0">
             <div class="col-lg-12 text-center wow zoomIn">
@@ -172,14 +175,12 @@
                 <small>
                     <strong>12.02.2014 - Andy Smith</strong>
                 </small>
-
-
             </div>
         </div>
     </div>
 </section>
 
-<section id="team" class="gray-section team" style="margin-top:0">
+<section id="speakers" class="gray-section team" style="margin-top:0">
     <div class="container">
         <div class="row m-b-lg">
             <div class="col-lg-12 text-center">
@@ -244,7 +245,7 @@
 </section>
 
 
-<div style="background-color: #1ab394; width: 100%">
+<div id="place" style="background-color: #1ab394; width: 100%">
     <section  class="container features" style="padding-top: 50px; padding-bottom: 200px;">
         <div class="row">
             <div class="col-lg-12 text-center">
@@ -278,10 +279,9 @@
             </div>
         </div>
     </section>
-
 </div>
 
-<section class="features" style="padding-top: 50px; padding-bottom: 100px;">
+<section id="getting" class="features" style="padding-top: 50px; padding-bottom: 100px;">
     <div class="container" style="color: #1ab394;">
         <div class="row">
             <div class="col-lg-12 text-center">
@@ -326,11 +326,11 @@
     </div>
 </section>
 
-<div id="testimonials" class="navy-section testimonials" style="margin-top: 0; background-image: url({% static 'img/myimg/antalia.jpg' %});
+<div class="navy-section testimonials" style="margin-top: 0; background-image: url({% static 'img/myimg/antalia.jpg' %});
         padding-top: 180px; padding-bottom: 600px;">
 </div>
 
-<section class="comments gray-section" style="margin-top: 0">
+<section id="organizators" class="comments gray-section" style="margin-top: 0">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
@@ -516,7 +516,7 @@
     </div>
 </section>
 
-<div id="testimonials" class="navy-section testimonials" style="margin-top: 0; background-image: url({% static 'img/myimg/antalia.jpg' %});
+<div class="navy-section testimonials" style="margin-top: 0; background-image: url({% static 'img/myimg/antalia.jpg' %});
         padding-top: 180px; padding-bottom: 600px;">
 </div>
 
