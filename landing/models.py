@@ -10,11 +10,12 @@ class Event(models.Model):
     def __unicode__(self):
         return 'Event %s' % self.id
 
-# class User(models.Model):
-#     name = models.CharField('Имя', max_length=100)
-#     email = models.EmailField('Адрес электронной почты', unique=False)
-#     age = models.CharField('Возраст', max_length=1, choices=USER_AGE_CHOICES, default="2")
-#     sex = models.CharField('Пол', max_length=1, choices=USER_SEX_CHOICES)
-#
-#     def __unicode__(self):
-#         return "%s (%s)" % (self.name, self.email)
+class UserProfile(models.Model):
+    name = models.CharField('ФИО', max_length=100, unique=False)
+    email = models.EmailField('Email', unique=False)
+    tel = models.CharField('Телефон', max_length=100, unique=False)
+    company_title = models.CharField('Название компании', max_length=100, unique=False)
+    company_edrpou = models.CharField('ЕДРПОУ', max_length=100, unique=False)
+
+    def __unicode__(self):
+        return "%s (%s)" % (self.name, self.email)

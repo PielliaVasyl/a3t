@@ -25,6 +25,7 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^$', landing_views.index, name="landing_views_index"),
     url(r'^event/(?P<event_id>\d*)/$', landing_views.event, name="landing_views_index"),
+    url(r'^thank_you/$', landing_views.thank_you, name="landing_views_thank_you"),
     url(r'^404/$', landing_views.handler404, ),
     url(r'^500/$', landing_views.handler500, ),
 ]

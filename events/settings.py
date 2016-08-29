@@ -37,7 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'landing'
+    'landing',
+    'crispy_forms'
 ]
 
 MIDDLEWARE = [
@@ -132,3 +133,4 @@ STATICFILES_DIRS = (
 # )
 
 # STATIC_ROOT = os.path.join(os.path.dirname(BASE_DIR),  'staticfiles')   # external library
+CRISPY_TEMPLATE_PACK = 'bootstrap3'
