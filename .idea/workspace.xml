@@ -2,15 +2,101 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="885776c9-ccf9-4030-8f70-d8e937321c86" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing/forms.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/landing/templates/thank_you.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/landing/admin.py" afterPath="$PROJECT_DIR$/landing/admin.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/landing/templates/landing.html" afterPath="$PROJECT_DIR$/landing/templates/landing.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/landing/models.py" afterPath="$PROJECT_DIR$/landing/models.py" />
+      <change type="MOVED" beforePath="C:\Users\1\PycharmProjects\events\static\css\animate.css" afterPath="$PROJECT_DIR$/static/our_static/css/animate.css" />
+      <change type="MOVED" beforePath="C:\Users\1\PycharmProjects\events\static\css\bootstrap.css" afterPath="$PROJECT_DIR$/static/our_static/css/bootstrap.css" />
+      <change type="MOVED" beforePath="C:\Users\1\PycharmProjects\events\static\css\bootstrap.css.map" afterPath="$PROJECT_DIR$/static/our_static/css/bootstrap.css.map" />
+      <change type="MOVED" beforePath="C:\Users\1\PycharmProjects\events\static\css\bootstrap.min.css" afterPath="$PROJECT_DIR$/static/our_static/css/bootstrap.min.css" />
+      <change type="MOVED" beforePath="C:\Users\1\PycharmProjects\events\static\css\patterns\1.png" afterPath="$PROJECT_DIR$/static/our_static/css/patterns/1.png" />
+      <change type="MOVED" beforePath="C:\Users\1\PycharmProjects\events\static\css\patterns\2.png" afterPath="$PROJECT_DIR$/static/our_static/css/patterns/2.png" />
+      <change type="MOVED" beforePath="C:\Users\1\PycharmProjects\events\static\css\patterns\3.png" afterPath="$PROJECT_DIR$/static/our_static/css/patterns/3.png" />
+      <change type="MOVED" beforePath="C:\Users\1\PycharmProjects\events\static\css\patterns\4.png" afterPath="$PROJECT_DIR$/static/our_static/css/patterns/4.png" />
+      <change type="MOVED" beforePath="C:\Users\1\PycharmProjects\events\static\css\patterns\5.png" afterPath="$PROJECT_DIR$/static/our_static/css/patterns/5.png" />
+      <change type="MOVED" beforePath="C:\Users\1\PycharmProjects\events\static\css\patterns\6.png" afterPath="$PROJECT_DIR$/static/our_static/css/patterns/6.png" />
+      <change type="MOVED" beforePath="C:\Users\1\PycharmProjects\events\static\css\patterns\7.png" afterPath="$PROJECT_DIR$/static/our_static/css/patterns/7.png" />
+      <change type="MOVED" beforePath="C:\Users\1\PycharmProjects\events\static\css\patterns\congruent_pentagon.png" afterPath="$PROJECT_DIR$/static/our_static/css/patterns/congruent_pentagon.png" />
+      <change type="MOVED" beforePath="C:\Users\1\PycharmProjects\events\static\css\patterns\header-profile-skin-1.png" afterPath="$PROJECT_DIR$/static/our_static/css/patterns/header-profile-skin-1.png" />
+      <change type="MOVED" beforePath="C:\Users\1\PycharmProjects\events\static\css\patterns\header-profile-skin-2.png" afterPath="$PROJECT_DIR$/static/our_static/css/patterns/header-profile-skin-2.png" />
+      <change type="MOVED" beforePath="C:\Users\1\PycharmProjects\events\static\css\patterns\header-profile-skin-3.png" afterPath="$PROJECT_DIR$/static/our_static/css/patterns/header-profile-skin-3.png" />
+      <change type="MOVED" beforePath="C:\Users\1\PycharmProjects\events\static\css\patterns\header-profile.png" afterPath="$PROJECT_DIR$/static/our_static/css/patterns/header-profile.png" />
+      <change type="MOVED" beforePath="C:\Users\1\PycharmProjects\events\static\css\patterns\otis_redding.png" afterPath="$PROJECT_DIR$/static/our_static/css/patterns/otis_redding.png" />
+      <change type="MOVED" beforePath="C:\Users\1\PycharmProjects\events\static\css\patterns\shattered.png" afterPath="$PROJECT_DIR$/static/our_static/img/landing/shattered.png" />
+      <change type="MOVED" beforePath="C:\Users\1\PycharmProjects\events\static\css\patterns\triangular.png" afterPath="$PROJECT_DIR$/static/our_static/css/patterns/triangular.png" />
+      <change type="MOVED" beforePath="C:\Users\1\PycharmProjects\events\static\css\style.css" afterPath="$PROJECT_DIR$/static/our_static/css/style.css" />
+      <change type="MOVED" beforePath="C:\Users\1\PycharmProjects\events\static\css\style.min.css" afterPath="$PROJECT_DIR$/static/our_static/css/style.min.css" />
+      <change type="MOVED" beforePath="C:\Users\1\PycharmProjects\events\static\font-awesome\css\font-awesome.css" afterPath="$PROJECT_DIR$/static/our_static/font-awesome/css/font-awesome.css" />
+      <change type="MOVED" beforePath="C:\Users\1\PycharmProjects\events\static\font-awesome\css\font-awesome.min.css" afterPath="$PROJECT_DIR$/static/our_static/font-awesome/css/font-awesome.min.css" />
+      <change type="MOVED" beforePath="C:\Users\1\PycharmProjects\events\static\font-awesome\fonts\FontAwesome.otf" afterPath="$PROJECT_DIR$/static/our_static/font-awesome/fonts/FontAwesome.otf" />
+      <change type="MOVED" beforePath="C:\Users\1\PycharmProjects\events\static\font-awesome\fonts\fontawesome-webfont.eot" afterPath="$PROJECT_DIR$/static/our_static/font-awesome/fonts/fontawesome-webfont.eot" />
+      <change type="MOVED" beforePath="C:\Users\1\PycharmProjects\events\static\font-awesome\fonts\fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/static/our_static/font-awesome/fonts/fontawesome-webfont.svg" />
+      <change type="MOVED" beforePath="C:\Users\1\PycharmProjects\events\static\font-awesome\fonts\fontawesome-webfont.ttf" afterPath="$PROJECT_DIR$/static/our_static/font-awesome/fonts/fontawesome-webfont.ttf" />
+      <change type="MOVED" beforePath="C:\Users\1\PycharmProjects\events\static\font-awesome\fonts\fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/static/our_static/font-awesome/fonts/fontawesome-webfont.woff" />
+      <change type="MOVED" beforePath="C:\Users\1\PycharmProjects\events\static\font-awesome\fonts\fontawesome-webfont.woff2" afterPath="$PROJECT_DIR$/static/our_static/font-awesome/fonts/fontawesome-webfont.woff2" />
+      <change type="MOVED" beforePath="C:\Users\1\PycharmProjects\events\static\font-awesome\less\animated.less" afterPath="$PROJECT_DIR$/static/our_static/font-awesome/less/animated.less" />
+      <change type="MOVED" beforePath="C:\Users\1\PycharmProjects\events\static\font-awesome\less\bordered-pulled.less" afterPath="$PROJECT_DIR$/static/our_static/font-awesome/less/bordered-pulled.less" />
+      <change type="MOVED" beforePath="C:\Users\1\PycharmProjects\events\static\font-awesome\less\core.less" afterPath="$PROJECT_DIR$/static/our_static/font-awesome/less/core.less" />
+      <change type="MOVED" beforePath="C:\Users\1\PycharmProjects\events\static\font-awesome\less\fixed-width.less" afterPath="$PROJECT_DIR$/static/our_static/font-awesome/less/fixed-width.less" />
+      <change type="MOVED" beforePath="C:\Users\1\PycharmProjects\events\static\font-awesome\less\font-awesome.less" afterPath="$PROJECT_DIR$/static/our_static/font-awesome/less/font-awesome.less" />
+      <change type="MOVED" beforePath="C:\Users\1\PycharmProjects\events\static\font-awesome\less\icons.less" afterPath="$PROJECT_DIR$/static/our_static/font-awesome/less/icons.less" />
+      <change type="MOVED" beforePath="C:\Users\1\PycharmProjects\events\static\font-awesome\less\larger.less" afterPath="$PROJECT_DIR$/static/our_static/font-awesome/less/larger.less" />
+      <change type="MOVED" beforePath="C:\Users\1\PycharmProjects\events\static\font-awesome\less\list.less" afterPath="$PROJECT_DIR$/static/our_static/font-awesome/less/list.less" />
+      <change type="MOVED" beforePath="C:\Users\1\PycharmProjects\events\static\font-awesome\less\mixins.less" afterPath="$PROJECT_DIR$/static/our_static/font-awesome/less/mixins.less" />
+      <change type="MOVED" beforePath="C:\Users\1\PycharmProjects\events\static\font-awesome\less\path.less" afterPath="$PROJECT_DIR$/static/our_static/font-awesome/less/path.less" />
+      <change type="MOVED" beforePath="C:\Users\1\PycharmProjects\events\static\font-awesome\less\rotated-flipped.less" afterPath="$PROJECT_DIR$/static/our_static/font-awesome/less/rotated-flipped.less" />
+      <change type="MOVED" beforePath="C:\Users\1\PycharmProjects\events\static\font-awesome\less\stacked.less" afterPath="$PROJECT_DIR$/static/our_static/font-awesome/less/stacked.less" />
+      <change type="MOVED" beforePath="C:\Users\1\PycharmProjects\events\static\font-awesome\less\variables.less" afterPath="$PROJECT_DIR$/static/our_static/font-awesome/less/variables.less" />
+      <change type="MOVED" beforePath="C:\Users\1\PycharmProjects\events\static\font-awesome\scss\_animated.scss" afterPath="$PROJECT_DIR$/static/our_static/font-awesome/scss/_animated.scss" />
+      <change type="MOVED" beforePath="C:\Users\1\PycharmProjects\events\static\font-awesome\scss\_bordered-pulled.scss" afterPath="$PROJECT_DIR$/static/our_static/font-awesome/scss/_bordered-pulled.scss" />
+      <change type="MOVED" beforePath="C:\Users\1\PycharmProjects\events\static\font-awesome\scss\_core.scss" afterPath="$PROJECT_DIR$/static/our_static/font-awesome/scss/_core.scss" />
+      <change type="MOVED" beforePath="C:\Users\1\PycharmProjects\events\static\font-awesome\scss\_fixed-width.scss" afterPath="$PROJECT_DIR$/static/our_static/font-awesome/scss/_fixed-width.scss" />
+      <change type="MOVED" beforePath="C:\Users\1\PycharmProjects\events\static\font-awesome\scss\_icons.scss" afterPath="$PROJECT_DIR$/static/our_static/font-awesome/scss/_icons.scss" />
+      <change type="MOVED" beforePath="C:\Users\1\PycharmProjects\events\static\font-awesome\scss\_larger.scss" afterPath="$PROJECT_DIR$/static/our_static/font-awesome/scss/_larger.scss" />
+      <change type="MOVED" beforePath="C:\Users\1\PycharmProjects\events\static\font-awesome\scss\_list.scss" afterPath="$PROJECT_DIR$/static/our_static/font-awesome/scss/_list.scss" />
+      <change type="MOVED" beforePath="C:\Users\1\PycharmProjects\events\static\font-awesome\scss\_mixins.scss" afterPath="$PROJECT_DIR$/static/our_static/font-awesome/scss/_mixins.scss" />
+      <change type="MOVED" beforePath="C:\Users\1\PycharmProjects\events\static\font-awesome\scss\_path.scss" afterPath="$PROJECT_DIR$/static/our_static/font-awesome/scss/_path.scss" />
+      <change type="MOVED" beforePath="C:\Users\1\PycharmProjects\events\static\font-awesome\scss\_rotated-flipped.scss" afterPath="$PROJECT_DIR$/static/our_static/font-awesome/scss/_rotated-flipped.scss" />
+      <change type="MOVED" beforePath="C:\Users\1\PycharmProjects\events\static\font-awesome\scss\_stacked.scss" afterPath="$PROJECT_DIR$/static/our_static/font-awesome/scss/_stacked.scss" />
+      <change type="MOVED" beforePath="C:\Users\1\PycharmProjects\events\static\font-awesome\scss\_variables.scss" afterPath="$PROJECT_DIR$/static/our_static/font-awesome/scss/_variables.scss" />
+      <change type="MOVED" beforePath="C:\Users\1\PycharmProjects\events\static\font-awesome\scss\font-awesome.scss" afterPath="$PROJECT_DIR$/static/our_static/font-awesome/scss/font-awesome.scss" />
+      <change type="MOVED" beforePath="C:\Users\1\PycharmProjects\events\static\fonts\glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/static/our_static/fonts/glyphicons-halflings-regular.eot" />
+      <change type="MOVED" beforePath="C:\Users\1\PycharmProjects\events\static\fonts\glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/static/our_static/fonts/glyphicons-halflings-regular.svg" />
+      <change type="MOVED" beforePath="C:\Users\1\PycharmProjects\events\static\fonts\glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/static/our_static/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="MOVED" beforePath="C:\Users\1\PycharmProjects\events\static\fonts\glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/static/our_static/fonts/glyphicons-halflings-regular.woff" />
+      <change type="MOVED" beforePath="C:\Users\1\PycharmProjects\events\static\fonts\glyphicons-halflings-regular.woff2" afterPath="$PROJECT_DIR$/static/our_static/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="MOVED" beforePath="C:\Users\1\PycharmProjects\events\static\img\landing\avatar1.jpg" afterPath="$PROJECT_DIR$/static/our_static/img/landing/avatar1.jpg" />
+      <change type="MOVED" beforePath="C:\Users\1\PycharmProjects\events\static\img\landing\avatar2.jpg" afterPath="$PROJECT_DIR$/static/our_static/img/landing/avatar2.jpg" />
+      <change type="MOVED" beforePath="C:\Users\1\PycharmProjects\events\static\img\landing\avatar3.jpg" afterPath="$PROJECT_DIR$/static/our_static/img/landing/avatar3.jpg" />
+      <change type="MOVED" beforePath="C:\Users\1\PycharmProjects\events\static\img\landing\avatar4.jpg" afterPath="$PROJECT_DIR$/static/our_static/img/landing/avatar4.jpg" />
+      <change type="MOVED" beforePath="C:\Users\1\PycharmProjects\events\static\img\landing\avatar5.jpg" afterPath="$PROJECT_DIR$/static/our_static/img/landing/avatar5.jpg" />
+      <change type="MOVED" beforePath="C:\Users\1\PycharmProjects\events\static\img\landing\avatar6.jpg" afterPath="$PROJECT_DIR$/static/our_static/img/landing/avatar6.jpg" />
+      <change type="MOVED" beforePath="C:\Users\1\PycharmProjects\events\static\img\landing\avatar7.jpg" afterPath="$PROJECT_DIR$/static/our_static/img/landing/avatar7.jpg" />
+      <change type="MOVED" beforePath="C:\Users\1\PycharmProjects\events\static\img\landing\avatar8.jpg" afterPath="$PROJECT_DIR$/static/our_static/img/landing/avatar8.jpg" />
+      <change type="MOVED" beforePath="C:\Users\1\PycharmProjects\events\static\img\landing\avatar9.jpg" afterPath="$PROJECT_DIR$/static/our_static/img/landing/avatar9.jpg" />
+      <change type="MOVED" beforePath="C:\Users\1\PycharmProjects\events\static\img\landing\avatar_all.png" afterPath="$PROJECT_DIR$/static/our_static/img/landing/avatar_all.png" />
+      <change type="MOVED" beforePath="C:\Users\1\PycharmProjects\events\static\img\landing\dashboard.png" afterPath="$PROJECT_DIR$/static/our_static/img/landing/dashboard.png" />
+      <change type="MOVED" beforePath="C:\Users\1\PycharmProjects\events\static\img\landing\header_one.jpg" afterPath="$PROJECT_DIR$/static/our_static/img/landing/header_one.jpg" />
+      <change type="MOVED" beforePath="C:\Users\1\PycharmProjects\events\static\img\landing\header_two.jpg" afterPath="$PROJECT_DIR$/static/our_static/img/landing/header_two.jpg" />
+      <change type="MOVED" beforePath="C:\Users\1\PycharmProjects\events\static\img\landing\iphone.jpg" afterPath="$PROJECT_DIR$/static/our_static/img/landing/iphone.jpg" />
+      <change type="MOVED" beforePath="C:\Users\1\PycharmProjects\events\static\img\landing\laptop.png" afterPath="$PROJECT_DIR$/static/our_static/img/landing/laptop.png" />
+      <change type="MOVED" beforePath="C:\Users\1\PycharmProjects\events\static\img\landing\perspective.png" afterPath="$PROJECT_DIR$/static/our_static/img/landing/perspective.png" />
+      <change type="MOVED" beforePath="C:\Users\1\PycharmProjects\events\static\img\landing\shattered.png" afterPath="$PROJECT_DIR$/static/our_static/css/patterns/shattered.png" />
+      <change type="MOVED" beforePath="C:\Users\1\PycharmProjects\events\static\img\landing\word_map.png" afterPath="$PROJECT_DIR$/static/our_static/img/landing/word_map.png" />
+      <change type="MOVED" beforePath="C:\Users\1\PycharmProjects\events\static\img\myimg\antalia.jpg" afterPath="$PROJECT_DIR$/static/our_static/img/myimg/antalia.jpg" />
+      <change type="MOVED" beforePath="C:\Users\1\PycharmProjects\events\static\img\myimg\big-antalya.jpg" afterPath="$PROJECT_DIR$/static/our_static/img/myimg/big-antalya.jpg" />
+      <change type="MOVED" beforePath="C:\Users\1\PycharmProjects\events\static\img\profile_small.jpg" afterPath="$PROJECT_DIR$/static/our_static/img/profile_small.jpg" />
+      <change type="MOVED" beforePath="C:\Users\1\PycharmProjects\events\static\js\bootstrap.js" afterPath="$PROJECT_DIR$/static/our_static/js/bootstrap.js" />
+      <change type="MOVED" beforePath="C:\Users\1\PycharmProjects\events\static\js\bootstrap.min.js" afterPath="$PROJECT_DIR$/static/our_static/js/bootstrap.min.js" />
+      <change type="MOVED" beforePath="C:\Users\1\PycharmProjects\events\static\js\inspinia.js" afterPath="$PROJECT_DIR$/static/our_static/js/inspinia.js" />
+      <change type="MOVED" beforePath="C:\Users\1\PycharmProjects\events\static\js\jquery-2.1.1.js" afterPath="$PROJECT_DIR$/static/our_static/js/jquery-2.1.1.js" />
+      <change type="MOVED" beforePath="C:\Users\1\PycharmProjects\events\static\js\jquery-ui-1.10.4.min.js" afterPath="$PROJECT_DIR$/static/our_static/js/jquery-ui-1.10.4.min.js" />
+      <change type="MOVED" beforePath="C:\Users\1\PycharmProjects\events\static\js\jquery-ui.custom.min.js" afterPath="$PROJECT_DIR$/static/our_static/js/jquery-ui.custom.min.js" />
+      <change type="MOVED" beforePath="C:\Users\1\PycharmProjects\events\static\js\plugins\metisMenu\jquery.metisMenu.js" afterPath="$PROJECT_DIR$/static/our_static/js/plugins/metisMenu/jquery.metisMenu.js" />
+      <change type="MOVED" beforePath="C:\Users\1\PycharmProjects\events\static\js\plugins\pace\pace.min.js" afterPath="$PROJECT_DIR$/static/our_static/js/plugins/pace/pace.min.js" />
+      <change type="MOVED" beforePath="C:\Users\1\PycharmProjects\events\static\js\plugins\slimscroll\jquery.slimscroll.js" afterPath="$PROJECT_DIR$/static/our_static/js/plugins/slimscroll/jquery.slimscroll.js" />
+      <change type="MOVED" beforePath="C:\Users\1\PycharmProjects\events\static\js\plugins\slimscroll\jquery.slimscroll.min.js" afterPath="$PROJECT_DIR$/static/our_static/js/plugins/slimscroll/jquery.slimscroll.min.js" />
+      <change type="MOVED" beforePath="C:\Users\1\PycharmProjects\events\static\js\plugins\wow\wow.min.js" afterPath="$PROJECT_DIR$/static/our_static/js/plugins/wow/wow.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/404.html" afterPath="$PROJECT_DIR$/templates/404.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/events/settings.py" afterPath="$PROJECT_DIR$/events/settings.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/events/urls.py" afterPath="$PROJECT_DIR$/events/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/landing/views.py" afterPath="$PROJECT_DIR$/landing/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="events.iws" />
@@ -42,21 +128,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/events/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.8580376">
+              <caret line="126" column="0" selection-start-line="126" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="landing1.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/landing/templates/landing1.html">
+      <file leaf-file-name="404.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/404.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="581" column="0" selection-start-line="464" selection-start-column="0" selection-end-line="581" selection-end-column="0" />
+            <state vertical-scroll-proportion="-9.153846">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -85,25 +171,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/landing/views.py">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/events/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7807933">
-              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding>
-                <element signature="e#0#44#0" expanded="true" />
+                <element signature="e#640#672#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="forms.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/landing/forms.py">
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Envs/events/Lib/site-packages/django/conf/urls/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="71" selection-start-line="8" selection-start-column="71" selection-end-line="8" selection-end-column="71" />
+              <caret line="65" column="26" selection-start-line="65" selection-start-column="18" selection-end-line="65" selection-end-column="26" />
               <folding>
-                <element signature="e#0#24#0" expanded="true" />
+                <element signature="e#0#15#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -133,16 +219,16 @@
         <option value="$PROJECT_DIR$/static/js/app.js" />
         <option value="$PROJECT_DIR$/templates/landing.html" />
         <option value="$PROJECT_DIR$/templates/500.html" />
-        <option value="$PROJECT_DIR$/templates/404.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/events/settings.py" />
         <option value="$PROJECT_DIR$/landing/forms.py" />
         <option value="$PROJECT_DIR$/landing/admin.py" />
-        <option value="$PROJECT_DIR$/events/urls.py" />
         <option value="$PROJECT_DIR$/landing/templates/thank_you.html" />
         <option value="$PROJECT_DIR$/landing/models.py" />
         <option value="$PROJECT_DIR$/landing/templates/landing.html" />
         <option value="$PROJECT_DIR$/landing/views.py" />
+        <option value="$PROJECT_DIR$/templates/404.html" />
+        <option value="$PROJECT_DIR$/events/urls.py" />
+        <option value="$PROJECT_DIR$/events/settings.py" />
       </list>
     </option>
   </component>
@@ -224,7 +310,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="landing" />
+              <option name="myItemId" value="staticfiles" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -238,11 +324,65 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="landing" />
+              <option name="myItemId" value="staticfiles" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="events" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="events" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="our_static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="events" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="events" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="our_static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="events" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="events" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="media" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -278,13 +418,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\1\PycharmProjects\events\media" />
       <recent name="C:\Users\1\PycharmProjects\events\static\img\myimg" />
       <recent name="C:\Users\1\PycharmProjects\events\static\js\plugins" />
       <recent name="C:\Users\1\PycharmProjects\events" />
       <recent name="C:\Users\1\PycharmProjects\events\templates" />
-      <recent name="C:\Users\1\PycharmProjects\events\static\img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\1\PycharmProjects\events\static\our_static" />
       <recent name="C:\Users\1\PycharmProjects\events" />
       <recent name="C:\Users\1\PycharmProjects\events\landing\templates" />
       <recent name="C:\Users\1\PycharmProjects\events\templates" />
@@ -553,7 +694,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="886" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25899744" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980132" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -563,7 +704,7 @@
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980132" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32847682" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32847682" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -642,7 +783,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="26" column="55" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="58" />
           <folding>
-            <element signature="e#640#720#0" expanded="true" />
+            <element signature="e#673#753#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -678,7 +819,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="56" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
           <folding>
-            <element signature="e#17#56#0" expanded="true" />
+            <element signature="e#17#56#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -712,7 +853,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="26" column="55" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="58" />
           <folding>
-            <element signature="e#640#720#0" expanded="true" />
+            <element signature="e#673#753#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -755,7 +896,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="56" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
           <folding>
-            <element signature="e#17#56#0" expanded="true" />
+            <element signature="e#17#56#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -780,7 +921,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
           <folding>
-            <element signature="e#640#720#0" expanded="true" />
+            <element signature="e#673#753#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -823,7 +964,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/plugins/pace/pace.min.js">
+    <entry file="file://$PROJECT_DIR$/static/our_static/js/plugins/pace/pace.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -837,14 +978,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/404.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="32" column="67" selection-start-line="32" selection-start-column="67" selection-end-line="32" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -853,7 +986,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/plugins/wow/wow.min.js">
+    <entry file="file://$PROJECT_DIR$/static/our_static/js/plugins/wow/wow.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -876,14 +1009,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/events/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/landing/templates/thank_you.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.82560706">
@@ -899,7 +1024,7 @@
         <state vertical-scroll-proportion="0.21294363">
           <caret line="6" column="73" selection-start-line="6" selection-start-column="73" selection-end-line="6" selection-end-column="73" />
           <folding>
-            <element signature="e#0#32#0" expanded="true" />
+            <element signature="e#0#32#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -909,7 +1034,7 @@
         <state vertical-scroll-proportion="0.74530274">
           <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding>
-            <element signature="e#17#56#0" expanded="true" />
+            <element signature="e#17#56#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -922,22 +1047,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/events/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3966597">
-          <caret line="27" column="79" selection-start-line="27" selection-start-column="79" selection-end-line="27" selection-end-column="79" />
-          <folding>
-            <element signature="e#640#720#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/landing/forms.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="71" selection-start-line="8" selection-start-column="71" selection-end-line="8" selection-end-column="71" />
           <folding>
-            <element signature="e#0#24#0" expanded="true" />
+            <element signature="e#0#24#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landing/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.81628394">
+          <caret line="25" column="52" selection-start-line="25" selection-start-column="52" selection-end-line="25" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -963,13 +1088,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/landing/views.py">
+    <entry file="file://$USER_HOME$/Envs/events/Lib/site-packages/django/conf/urls/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7807933">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="65" column="26" selection-start-line="65" selection-start-column="18" selection-end-line="65" selection-end-column="26" />
           <folding>
-            <element signature="e#0#44#0" expanded="true" />
+            <element signature="e#0#15#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/404.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.153846">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/events/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="e#640#672#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/events/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8580376">
+          <caret line="126" column="0" selection-start-line="126" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

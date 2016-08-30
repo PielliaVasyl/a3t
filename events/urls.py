@@ -13,9 +13,10 @@ Including another URLconf
     1. Import the include() function: from django.conf.urls import url, include
     2. Add a URL to urlpatterns:  url(r'^blog/', include('blog.urls'))
 """
+from django.conf import settings
 from django.conf.urls import url, handler400, handler403, handler404, handler500
 from django.contrib import admin
-import django.views.defaults
+# import django.views.defaults
 from landing import views as landing_views
 from django.conf import settings
 from django.conf.urls.static import static
@@ -28,11 +29,16 @@ urlpatterns = [
     url(r'^thank_you/$', landing_views.thank_you, name="landing_views_thank_you"),
     url(r'^404/$', landing_views.handler404, ),
     url(r'^500/$', landing_views.handler500, ),
+    # url(r'^media/(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.MEDIA_ROOT})
 ]
 
 # if settings.DEBUG:
 #     urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
 urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 handler404 = 'landing.views.handler404'
 handler500 = 'landing.views.handler500'
+
+# urlpatterns += patterns('', (r'^media/(?P<path>.*)$', 'django.views.static.serve', {
+#                                 'document_root': settings.MEDIA_ROOT}))
