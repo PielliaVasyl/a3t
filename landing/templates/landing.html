@@ -57,7 +57,9 @@
         background: url({% static 'img/myimg/antalia.jpg' %});
         background-position: center center;
         background-size: 100%;
-        padding-top: 130px; padding-bottom: 50px;">
+        background-repeat: no-repeat;
+        padding-top: 130px; padding-bottom: 50px;
+        background-color: #1ab394;">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center wow zoomIn">
@@ -93,7 +95,7 @@
             </div>
         </div>
         <div class="row features-block">
-            <div class="col-lg-4 features-text wow fadeInLeft" style="color: white; text-align: justify;">
+            <div class="col-lg-4 features-text wow fadeInLeft" style="color: white; text-align: justify; margin-top:0">
                 <!--<small>INSPINIA</small>
                 <h2>Perfectly designed </h2> -->
                 <p style="color: white; font-size: 15px">Нежное средиземное море, ласковое солнце, очаровательную природу Турции и ее колорит</p>
@@ -324,7 +326,7 @@
         <div class="row">
             <div class="col-sm-4 wow fadeInLeft">
                 <div class="team-member">
-                    <img src="{% static 'img/myimg/s1.png' %}" class="img-responsive img-circle"
+                    <img src="{% static 'img/myimg/s5.jpg' %}" class="img-responsive img-circle"
                          style="height: 128px;" alt=""> <!-- img-small-->
                     <h4><span class="navy">Amelia</span> Smith</h4>
                     <p>Lorem ipsum dolor sit amet, illum fastidii dissentias quo ne. Sea ne sint animal iisque, nam an soluta sensibus. </p>
@@ -340,7 +342,7 @@
             </div>
             <div class="col-sm-4 wow fadeInRight">
                 <div class="team-member">
-                    <img src="{% static 'img/myimg/s2.png' %}" class="img-responsive img-circle"
+                    <img src="{% static 'img/myimg/s4.jpg' %}" class="img-responsive img-circle"
                          style="height: 128px;" alt="">
                     <h4><span class="navy">Peter</span> Johnson</h4>
                     <p>Lorem ipsum dolor sit amet, illum fastidii dissentias quo ne. Sea ne sint animal iisque, nam an soluta sensibus.</p>
@@ -392,13 +394,34 @@
             </div>
         </div>
         <div class="row features-block">
-            <div class="col-lg-3 features-text wow fadeInLeft" style="color: white;">
-                <small>INSPINIA</small>
-                <h2>Perfectly designed </h2>
-                <p style="color: white;">dsgdf</p>
-                <!--<a href="" class="btn btn-primary">Learn more</a>-->
+            <div class="col-lg-5 features-text wow fadeInLeft" style="color: white; text-align: justify; margin-top:0">
+                <!--<small>INSPINIA</small> -->
+<!--                <h2>Perfectly designed </h2>-->
+            <p style="color:white; font-size:15px;">Элитный отель, расположенный на самом побережье Средиземного моря, с обширной инфраструктурой и позитивным персоналом.</p>
+            <p style="color:white; font-size:15px;">Отель расположен в курортном районе Кызылот, в 14 км от г.Манавгат, в 80 км от аэропорта Анталии. Общая площадь – 100 000 кв. м.</p>
+            <p style="color:white; font-size:15px;">Инфраструктура отеля включает множество спортивных направлений, а также:</p>
+	    <ul>
+                <li>9 бассейнов</li>
+                <li>водные горки</li>
+                <li>SPA-центр</li>
+                <li>амфитеатр</li>
+                <li>анимация</li>
+                <li>дискотека</li>
+                <li>фитнес-центр</li>
+                <li>аэробика.</li>
+            </ul>
+            <p style="color:white; font-size:15px;">Отель гостиприприимно приглашает в 4 ресторана и 6 баров по всей территории и предлагает питание по системе «Ультра Все включено»:</p>
+            <ul>
+                <li>завтрак (07:00–10:00), поздний завтрак (10:00-11:00), обед (12:30–14:00), ужин (19:00–21:00), поздний ужин (23:30-00:30)</li>
+                <li>закуски на пляже (12:00-15:00)</li>
+                <li>закуски в баре у бассейна (12:30-15:00)</li>
+                <li>чай/кофе и выпечка (16:00-17:00)</li>
+                <li>гёзлеме (12:00-15:00)</li>
+                <li>местные алкогольные и безалкогольные напитки.</li>
+            </ul>
+            <!--<a href="" class="btn btn-primary">Learn more</a>-->
             </div>
-            <div class="col-lg-9 text-right wow fadeInRight">
+            <div class="col-lg-7 text-right wow fadeInRight">
                 <img src="{% static 'img/myimg/hotel01.jpg' %}" alt="dashboard" class="img-responsive pull-right" style="border-radius:30px;">
             </div>
         </div>
@@ -539,7 +562,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-6 wow zoomIn">
+            <div class="col-lg-offset-3 col-lg-6 wow zoomIn">
                 <ul class="pricing-plan list-unstyled" style="font-size:24px">
                     <li class="pricing-title">
                         Basic
@@ -564,7 +587,7 @@
             </div>
 
 
-            <div class="col-lg-6 wow zoomIn">
+            <!--<div class="col-lg-6 wow zoomIn">
                 <ul class="pricing-plan list-unstyled" style="font-size:24px">
                     <li class="pricing-title">
                         Premium
@@ -585,7 +608,7 @@
                         Обзорная экскурсия
                     </li>
                 </ul>
-            </div>
+            </div> -->
         </div>
         <div class="row m-t-lg">
             <div class="col-lg-8 col-lg-offset-2 text-center m-t-lg">
@@ -621,13 +644,13 @@
             </div>
             <div class="ibox-content">
                 <div class="row">
-                    <div class="col-sm-6 b-r">
+                    <div class="col-sm-4 col-sm-offset-2 b-r">
                         <form method="post">{% csrf_token %}
                             {{ user_profile_form|crispy }}
                             <button class="btn btn-sm btn-primary pull-right m-t-n-xs" type="submit"><strong>Подать заявку на регистрацию</strong></button>
                         </form>
                     </div>
-                    <div class="col-sm-6"><h4>Обратите внимание</h4>
+                    <div class="col-sm-4"><h4>Обратите внимание</h4>
                         <p>Количество мест ограничено.</p>
                         <p>Пожалуйста, внимательно заполните форму регистрации, мы обязательно перезвоним Вам и
                             расскажем о деталях конференции и дополнительных возможностях. А также ответим на все вопросы.</p>
